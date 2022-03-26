@@ -1,5 +1,5 @@
 
-alert("Adivinanza, descubre el numero elegido entre 1 y 100, tienes 8 intentos!")
+alert("Adivinanza, descubre el numero elegido entre 1 y 100, tienes 5 intentos!")
 
 //Variables
 
@@ -13,7 +13,7 @@ while (numero != undefined) {
   if (intento < 5) {
 //Respuesta correcta
     if (numero == 74) {
-      alert("Lo adivinaste! Felicidades" + nombre)
+      alert("Lo adivinaste! Felicidades " + nombre +" "+"😀")
       break
 //Respuesta incorrecta
     } else if (numero != 74) {
